@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'sm': '618px',  // Custom breakpoint for 375px
+      },
       colors: {
         primary: '#7141e6',         // Purple
         secondary: '#ED8936',       // Orange
