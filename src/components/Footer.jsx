@@ -48,11 +48,12 @@ const Footer = () => (
 
     {/* Bottom Links */}
     <div className="container mx-auto px-4 mt-4 text-center pt-4">
-      <p className="text-sm">
-        <a href="#" className="text-white mx-2">Privacy Policy</a> |
-        <a href="#" className="text-white mx-2">Terms & Conditions</a>
-      </p>
-    </div>
+  <p className="text-sm">
+    <a href="/privacy-policy" className="text-white mx-2">Privacy Policy</a> |
+    <a href="/terms-conditions" className="text-white mx-2">Terms & Conditions</a>
+  </p>
+</div>
+
   </footer>
 );
 
